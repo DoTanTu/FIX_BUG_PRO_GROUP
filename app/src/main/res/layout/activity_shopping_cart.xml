@@ -111,6 +111,7 @@
                 android:layout_height="50dp"
                 android:text="Mua hàng(0)"
                 android:gravity="right"
+                android:backgroundTint="@color/black"
                 android:textStyle="normal" />
         </LinearLayout>
     </LinearLayout>
