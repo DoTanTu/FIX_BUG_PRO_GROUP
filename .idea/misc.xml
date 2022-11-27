@@ -3,6 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/ANDROID_LY_THUYET/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_home.xml" value="0.2101851851851852" />
+        <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/ANDROID_LY_THUYET/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_loading.xml" value="0.25416666666666665" />
+        <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/ANDROID_LY_THUYET/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/ANDROID_LY_THUYET/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_ma_otp.xml" value="0.25416666666666665" />
+        <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/ANDROID_LY_THUYET/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/ANDROID_LY_THUYET/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_shopping_cart.xml" value="0.25416666666666665" />
+        <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/ANDROID_LY_THUYET/FIX_BUG_PRO_GROUP/app/src/main/res/layout/content_shopping_cart.xml" value="0.25416666666666665" />
+        <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/ANDROID_LY_THUYET/FIX_BUG_PRO_GROUP/app/src/main/res/layout/fragment_first.xml" value="0.25416666666666665" />
+        <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/ANDROID_LY_THUYET/FIX_BUG_PRO_GROUP/app/src/main/res/layout/fragment_second.xml" value="0.25416666666666665" />
         <entry key="..\:/wordSpace/hoc_ki_5/thlttdd/project_app_thu_cung/app/src/main/res/drawable/boder.xml" value="0.206" />
         <entry key="..\:/wordSpace/hoc_ki_5/thlttdd/project_app_thu_cung/app/src/main/res/drawable/boderbutton.xml" value="0.206" />
         <entry key="..\:/wordSpace/hoc_ki_5/thlttdd/project_app_thu_cung/app/src/main/res/drawable/splash_background.xml" value="0.1" />
