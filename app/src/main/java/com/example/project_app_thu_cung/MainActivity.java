@@ -79,7 +79,6 @@ public class MainActivity extends AppCompatActivity {
 
                         apunti.sdt = sdt;
                         apunti.matkhau = matkhau;
-                        apunti.nhaplaimatkhau = nhaplaimatkhau;
                         apunti.maotp = x;
 
                         openMaOTP();

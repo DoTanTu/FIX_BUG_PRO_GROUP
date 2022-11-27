@@ -16,48 +16,61 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 import java.util.Random;
 
 public class MaOTP extends AppCompatActivity {
+    private DatabaseReference mDatabase;
     TextView txtguima;
     Button btnxacnhan;
     EditText txtmacode1,txtmacode2,txtmacode3,txtmacode4,txtmacode5,txtmacode6;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ma_otp);
+
+        mDatabase = FirebaseDatabase.getInstance().getReference();
 
         ActivityCompat.requestPermissions(MaOTP.this, new String[]{
                 Manifest.permission.SEND_SMS, Manifest.permission.READ_SMS
         }, PackageManager.PERMISSION_GRANTED);
 
 
-         txtguima =findViewById(R.id.txtguilaima);
-         btnxacnhan=findViewById(R.id.btnxacnhan);
-         txtmacode1=findViewById(R.id.macode1);
-         txtmacode2=findViewById(R.id.macode2);
-         txtmacode3=findViewById(R.id.macode3);
-         txtmacode4=findViewById(R.id.macode4);
-         txtmacode5=findViewById(R.id.macode5);
-         txtmacode6=findViewById(R.id.macode6);
+        txtguima =findViewById(R.id.txtguilaima);
+        btnxacnhan=findViewById(R.id.btnxacnhan);
+        txtmacode1=findViewById(R.id.macode1);
+        txtmacode2=findViewById(R.id.macode2);
+        txtmacode3=findViewById(R.id.macode3);
+        txtmacode4=findViewById(R.id.macode4);
+        txtmacode5=findViewById(R.id.macode5);
+        txtmacode6=findViewById(R.id.macode6);
 
 
-         txtguima.setOnClickListener(new View.OnClickListener(){
+        txtguima.setOnClickListener(new View.OnClickListener(){
 
-             @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP_MR1)
-             @Override
-             public void onClick(View view) {
+            @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP_MR1)
+            @Override
+            public void onClick(View view) {
 
-                 Random rd=new Random();
-                 int x=111111+(int)(Math.random()*(999999-111111)+1);
-                 String maOTP = String.valueOf(x) ;
-                 String SMS = "Mã OTP của bạn là " + maOTP;
-                 String number = apunti.sdt;
-                 SmsManager sm = SmsManager.getSmsManagerForSubscriptionId(Integer.parseInt("0966948914"));
-                 sm.sendTextMessage(number, null,SMS, null, null);
-
-             }
-         });
+                Random rd=new Random();
+                int x=111111+(int)(Math.random()*(999999-111111)+1);
+                String maOTP = String.valueOf(x) ;
+                String SMS = "Mã OTP của bạn là " + maOTP;
+                String number = apunti.sdt;
+                SmsManager sm = SmsManager.getSmsManagerForSubscriptionId(Integer.parseInt("0966948914"));
+                sm.sendTextMessage(number, null,SMS, null, null);
+                apunti.maotp = x;
+                txtmacode1.setText("");//các số thứ 1 nhập vào
+                txtmacode2.setText("");
+                txtmacode3.setText("");
+                txtmacode4.setText("");
+                txtmacode5.setText("");
+                txtmacode6.setText("");
+            }
+        });
         btnxacnhan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -92,8 +105,11 @@ public class MaOTP extends AppCompatActivity {
                                     s5=s5*10;
                                     x=x-s5;
                                     if (s6==x){
+
+                                        openinputinformation();
+
                                         Toast.makeText(MaOTP.this, "Bạn đã đăng kí thành công", Toast.LENGTH_SHORT).show();
-                                        openDangnhap();
+
                                     }else {Toast.makeText(MaOTP.this, "Mã Không chính sác6", Toast.LENGTH_SHORT).show();}
                                 }else {Toast.makeText(MaOTP.this, "Mã Không chính sác5", Toast.LENGTH_SHORT).show();}
                             }else {Toast.makeText(MaOTP.this, "Mã Không chính sác4", Toast.LENGTH_SHORT).show();}
@@ -106,7 +122,9 @@ public class MaOTP extends AppCompatActivity {
             }
         });
     }
-    public void openDangnhap(){
-        Intent intent = new Intent(this ,Home.class);
+    public void openinputinformation(){
+        Intent intent = new Intent(this ,nhapThongTin.class);
         startActivity(intent);}
+
+
 }
