@@ -18,4 +18,19 @@
         <item>Giới Tính Khác</item>
 
     </string-array>
+    <string name="bank">Chọn Ngân Hàng</string>
+    <string-array name="bank_arrays">
+        <item>VietcomBank</item>
+        <item>BIDV</item>
+        <item>VBSP</item>
+        <item>Vietinbank</item>
+        <item>VN-AGribank</item>
+        <item>MHB</item>
+        <item>ABBank</item>
+        <item>Sacombank</item>
+        <item>Techcombank</item>
+        <item>ACB</item>
+
+
+    </string-array>
 </resources>
