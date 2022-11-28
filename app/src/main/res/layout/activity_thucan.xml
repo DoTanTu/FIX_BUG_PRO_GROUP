@@ -74,8 +74,6 @@
         android:id="@+id/rcv"
         android:layout_width="match_parent"
         android:layout_height="570dp" >
-
-
     </ListView>
 
 
