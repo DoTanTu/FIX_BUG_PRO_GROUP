@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
 
     <androidx.appcompat.widget.SearchView
         android:id="@+id/search"
@@ -77,8 +81,7 @@
 
 
     </ListView>
-
-
+    </LinearLayout>
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_nav"
         android:layout_width="match_parent"
@@ -90,7 +93,7 @@
         app:itemBackground="@color/white"
         app:itemIconTint="#000"
         app:itemTextColor="@color/black"
-        app:menu="@menu/bottom_nav" />
+        app:menu="@menu/bottom_nav"
+        />
 
-
-</LinearLayout>
+</RelativeLayout>
