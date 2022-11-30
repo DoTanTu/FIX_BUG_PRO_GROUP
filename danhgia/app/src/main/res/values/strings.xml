@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">danhgia</string>
+    <string name="action_tinhan">Tin nhắn</string>
+    <string name="action_giohang">Giỏ hàng</string>
+    <string name="action_thongbao">Thông báo</string>
+    <string name="action_canhan">Cá nhân</string>
+</resources>
