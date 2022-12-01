@@ -1,18 +1,25 @@
 package com.example.baick;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
+
+import com.google.android.material.navigation.NavigationView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<ThongTin> arrayList;
     Adapter adapter;
     Button btn_gy,btn_ta,btn_pk,btn_qa;
+    NavigationView navigationView;
+    private DrawerLayout mDrawerLayout;
 
     @SuppressLint({"WrongViewCast", "MissingInflatedId"})
     @Override
@@ -64,21 +73,67 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        mDrawerLayout = findViewById(R.id.drawer_layout);
+
+        NavigationView navigationView = findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(
+                new NavigationView.OnNavigationItemSelectedListener() {
+                    @Override
+                    public boolean onNavigationItemSelected(MenuItem menuItem) {
+                        // set item as selected to persist highlight
+                        menuItem.setChecked(true);
+                        // close drawer when item is tapped
+                        mDrawerLayout.closeDrawers();
+
+                        // Add code here to update the UI based on the item selected
+                        // For example, swap UI fragments here
+
+                        return true;
+                    }
+                });
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        ActionBar actionbar = getSupportActionBar();
+        actionbar.setDisplayHomeAsUpEnabled(true);
+        mDrawerLayout.addDrawerListener(
+                new DrawerLayout.DrawerListener() {
+                    @Override
+                    public void onDrawerSlide(View drawerView, float slideOffset) {
+                        // Respond when the drawer's position changes
+                    }
+
+                    @Override
+                    public void onDrawerOpened(View drawerView) {
+                        // Respond when the drawer is opened
+                    }
+
+                    @Override
+                    public void onDrawerClosed(View drawerView) {
+                        // Respond when the drawer is closed
+                    }
+
+                    @Override
+                    public void onDrawerStateChanged(int newState) {
+                        // Respond when the drawer motion state changes
+                    }
+                }
+        );
+
+
+
     }
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                mDrawerLayout.openDrawer(GravityCompat.START);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.bottom_nav,menu);
         return true;
-    }
-    public boolean onOptionsItemSelected(MenuItem item){
-        int id = item.getItemId();
-
-        if (id==R.id.menu){
-           Intent intent = new Intent(MainActivity.this,Menu.class);
-            startActivity(intent);
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-
     }
 
 
