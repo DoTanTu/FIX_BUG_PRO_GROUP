@@ -22,6 +22,9 @@
             android:name=".ShoppingCartActivity"
             android:exported="false" />
         <activity
+            android:name=".ShoppingCartActivity"
+            android:exported="false" />
+        <activity
             android:name=".login"
             android:exported="false" />
         <activity
