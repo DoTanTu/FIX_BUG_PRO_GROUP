@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="130dp"
+    android:layout_height="150dp"
     android:orientation="horizontal"
     android:weightSum="6"
-    android:background="#403C3C"
+    android:paddingBottom="10dp"
+    android:background="#FFFFFF"
     >
         <LinearLayout
-            android:paddingTop="10dp"
+            android:paddingTop="5dp"
             android:layout_weight="0.5"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -20,7 +21,7 @@
                 />
         </LinearLayout>
     <LinearLayout
-        android:paddingTop="10dp"
+        android:paddingTop="5dp"
         android:layout_weight="5.5"
         android:layout_width="0dp"
         android:background="@color/white"
@@ -66,7 +67,7 @@
                 android:textColor="#423D3D"
                 />
             <View
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="7dp"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#ACA9A9"
@@ -81,7 +82,7 @@
                     android:layout_height="match_parent"
                     android:text="Tổng tiền: "
                     android:textStyle="bold"
-                    android:textSize="23dp"
+                    android:textSize="20dp"
                     android:textColor="@color/black"
                     />
                 <TextView
