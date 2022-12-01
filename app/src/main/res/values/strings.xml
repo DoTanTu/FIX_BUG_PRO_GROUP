@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">project_app_thu_cung</string>
-<<<<<<< HEAD
+    <
+    <
+    <
+    <
+    <
+    <
+    < HEAD
     <string name="title_activity_shopping_cart">ShoppingCartActivity</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -10,7 +16,7 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-=======
+    =======
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="country_prompt">Chọn Tỉnh/Thành Phố</string>
@@ -44,5 +50,5 @@
 
 
     </string-array>
->>>>>>> main
+    >>>>>>> main
 </resources>

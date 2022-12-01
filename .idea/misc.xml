@@ -32,6 +32,7 @@
         <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/ANDROID_LY_THUYET/FIX_BUG_PRO_GROUP/app/src/main/res/layout/fragment_trung_tam_tro_giup.xml" value="0.14479166666666668" />
         <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/FIX_BUG_PRO_GROUP/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1485" />
         <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/FIX_BUG_PRO_GROUP/app/src/main/res/drawable/boder.xml" value="0.205" />
+        <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/FIX_BUG_PRO_GROUP/app/src/main/res/drawable/boder_button_delete.xml" value="0.189" />
         <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/FIX_BUG_PRO_GROUP/app/src/main/res/drawable/boder_linear_child.xml" value="0.164" />
         <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/FIX_BUG_PRO_GROUP/app/src/main/res/drawable/boder_linearlayout.xml" value="0.1725" />
         <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/FIX_BUG_PRO_GROUP/app/src/main/res/drawable/boderbutton.xml" value="0.1995" />
@@ -43,6 +44,9 @@
         <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/FIX_BUG_PRO_GROUP/app/src/main/res/drawable/ic_baseline_navigate_next_24.xml" value="0.1485" />
         <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/FIX_BUG_PRO_GROUP/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1485" />
         <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/FIX_BUG_PRO_GROUP/app/src/main/res/drawable/splash_background.xml" value="0.1485" />
+        <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_chitietao1.xml" value="0.25416666666666665" />
+        <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_danh_gia.xml" value="0.23854166666666668" />
+        <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_edit_shopping_cart.xml" value="0.20625" />
         <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
         <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_item_shopping_cart.xml" value="0.25416666666666665" />
         <entry key="..\:/HocKy1_nam3_chuan/TONG-HOP-BAI-CUOI-KY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_loading.xml" value="0.215625" />
