@@ -70,7 +70,8 @@
         android:background="#EDE9E9"
     />
 
-    <ListView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lvGioHang"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_weight="5.75"
@@ -78,7 +79,7 @@
         android:paddingTop="15dp"
         tools:listitem="@layout/activity_item_shopping_cart">
 
-    </ListView>
+    </androidx.recyclerview.widget.RecyclerView>
 
     <LinearLayout
         android:layout_weight="0.1"
@@ -114,15 +115,14 @@
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_gravity="end"
-            >
+            android:layout_gravity="end">
 
             <Button
                 android:layout_width="150dp"
                 android:layout_height="50dp"
                 android:text="Mua hàng(0)"
-                android:gravity="right"
-                android:backgroundTint="@color/black"
+                android:gravity="center"
+                android:backgroundTint="#D85F9F"
                 android:textStyle="normal" />
         </LinearLayout>
     </LinearLayout>
