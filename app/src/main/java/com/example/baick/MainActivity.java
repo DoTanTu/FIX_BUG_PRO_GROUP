@@ -20,6 +20,8 @@ import android.widget.Button;
 import android.widget.ListView;
 
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,7 +30,9 @@ import SP.ThongTin;
 
 
 public class MainActivity extends AppCompatActivity {
-    ListView listView,listView1;
+    private FirebaseDatabase db;
+    private DatabaseReference ref;
+    ListView listView;
     ArrayList<ThongTin> arrayList;
     Adapter adapter;
     Button btn_gy,btn_ta,btn_pk,btn_qa;

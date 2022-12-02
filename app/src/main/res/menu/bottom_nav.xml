@@ -23,10 +23,5 @@
         android:icon="@drawable/ic_baseline_account_circle_24"
         android:title="@string/action_acc"
         />
-    <item
-        android:id="@+id/menu"
-        android:icon="@drawable/ic_menu"
-        android:title="Menu"
 
-        />
 </menu>
