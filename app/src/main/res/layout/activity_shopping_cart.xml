@@ -8,11 +8,10 @@
     android:orientation="vertical"
     android:weightSum="6"
     tools:context=".ShoppingCartActivity">
-
     <RelativeLayout
+        android:layout_weight="0.5"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_weight="0.5">
+        android:layout_height="0dp">
 
         <ImageView
             android:id="@+id/id_comback_login"
@@ -38,17 +37,17 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true">
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_marginRight="20dp"
                 android:gravity="center_vertical"
-                android:text="xong"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp"
                 android:textColor="@color/black"
-                android:textSize="20dp" />
+                android:text="sửa" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -68,45 +67,13 @@
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:layout_marginTop="5dp"
-        android:background="#EDE9E9" />
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.4"
-        android:gravity="bottom
-"
-        android:orientation="horizontal"
-        android:weightSum="2">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center_horizontal"
-            android:paddingTop="15dp"
-            android:text="Tất cả"
-            android:textColor="#8F8888"
-            android:textSize="18dp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center_horizontal"
-            android:paddingTop="15dp"
-            android:text="Mua lần nữa"
-            android:textColor="#8F8C8C"
-            android:textSize="18dp"
-            android:textStyle="bold" />
-
-    </LinearLayout>
-
+        android:background="#EDE9E9"
+        />
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="4.35"
+        android:layout_weight="4.55"
         android:background="#FFFFFF"
         android:paddingTop="15dp"
         tools:listitem="@layout/activity_item_shopping_cart">
@@ -114,55 +81,59 @@
     </ListView>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.75"
+        android:padding="8dp"
+        android:layout_weight="0.95"
         android:background="@drawable/boder_linearlayout"
-        android:padding="8dp">
-
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
         <LinearLayout
+
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:gravity="top"
+            android:weightSum="2"
             android:background="@drawable/boder_linear_child"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:weightSum="2">
-
+            android:orientation="horizontal">
             <LinearLayout
+                android:paddingLeft="20dp"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:paddingTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical"
-                android:paddingLeft="20dp"
-                android:layout_gravity="center"
-                android:gravity="center"
                 >
-
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Tất cả"
-                    android:textSize="20dp"
+                    android:text="Tất cả">
 
-                    >
+
                 </CheckBox>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tổng thanh toán"
+                    android:textSize="20dp"
+                    />
             </LinearLayout>
-
             <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:paddingTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
+                android:layout_gravity="end"
+                >
 
                 <Button
-                    android:layout_width="120dp"
-                    android:layout_height="40dp"
-                    android:background="@drawable/boder_button_delete"
-                    android:backgroundTint="#FFFFFF"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:text="Mua hàng(0)"
+                    android:layout_gravity="center"
                     android:gravity="center"
-                    android:text="Xóa"
+                    android:background="@drawable/boderbutton"
+                    android:backgroundTint="@color/black"
                     android:textStyle="normal" />
             </LinearLayout>
         </LinearLayout>
