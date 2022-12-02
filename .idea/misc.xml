@@ -3,10 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/HK1(2022_2023)/Android_Studio/CUOIKY/FIX_BUG_PRO_GROUP/app/src/main/res/drawable/boderbutton.xml" value="0.164" />
+        <entry key="..\:/HK1(2022_2023)/Android_Studio/CUOIKY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_chitietao1.xml" value="0.22826086956521738" />
+        <entry key="..\:/HK1(2022_2023)/Android_Studio/CUOIKY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_danh_gia.xml" value="0.22826086956521738" />
         <entry key="..\:/HK1(2022_2023)/Android_Studio/CUOIKY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_home.xml" value="0.22826086956521738" />
+        <entry key="..\:/HK1(2022_2023)/Android_Studio/CUOIKY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_input_danh_gia.xml" value="0.22826086956521738" />
         <entry key="..\:/HK1(2022_2023)/Android_Studio/CUOIKY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_item_shopping_cart.xml" value="0.22826086956521738" />
+        <entry key="..\:/HK1(2022_2023)/Android_Studio/CUOIKY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_listview_giohang.xml" value="0.22826086956521738" />
         <entry key="..\:/HK1(2022_2023)/Android_Studio/CUOIKY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_loading.xml" value="0.22826086956521738" />
+        <entry key="..\:/HK1(2022_2023)/Android_Studio/CUOIKY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/HK1(2022_2023)/Android_Studio/CUOIKY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_ma_otp.xml" value="0.22826086956521738" />
+        <entry key="..\:/HK1(2022_2023)/Android_Studio/CUOIKY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/HK1(2022_2023)/Android_Studio/CUOIKY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_nhap_thong_tin.xml" value="0.22826086956521738" />
+        <entry key="..\:/HK1(2022_2023)/Android_Studio/CUOIKY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/activity_shopping_cart.xml" value="0.22826086956521738" />
+        <entry key="..\:/HK1(2022_2023)/Android_Studio/CUOIKY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/diglog_ntt.xml" value="0.25" />
         <entry key="..\:/HK1(2022_2023)/Android_Studio/CUOIKY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/fragment_danhgia.xml" value="0.22826086956521738" />
+        <entry key="..\:/HK1(2022_2023)/Android_Studio/CUOIKY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/fragment_ko_co__danh_gia.xml" value="0.22826086956521738" />
         <entry key="..\:/HK1(2022_2023)/Android_Studio/CUOIKY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
         <entry key="..\:/HK1(2022_2023)/Android_Studio/CUOIKY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/fragment_thong_tin_ca_nhan.xml" value="0.22826086956521738" />
         <entry key="..\:/HK1(2022_2023)/Android_Studio/CUOIKY/FIX_BUG_PRO_GROUP/app/src/main/res/layout/fragment_vi.xml" value="0.22826086956521738" />

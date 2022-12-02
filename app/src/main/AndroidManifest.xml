@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.project_app_thu_cung" >
+    package="com.example.project_app_thu_cung">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.SEND_SMS" />
@@ -17,7 +17,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Project_app_thu_cung"
-        tools:targetApi="31" >
+        tools:targetApi="31">
         <activity
             android:name=".EditShoppingCartActivity"
             android:exported="false" />
@@ -25,22 +25,22 @@
             android:name=".ShoppingCartActivity"
             android:exported="false" />
         <activity
+            android:name=".Input_DanhGia"
+            android:exported="false" />
+        <activity
             android:name=".DanhGiaActivity"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity
-            android:name=".ShoppingCartActivity"
-            android:exported="false" />
         <activity
             android:name=".login"
             android:exported="false" />
         <activity
             android:name=".loading"
             android:exported="true"
-            android:theme="@style/splash" >
+            android:theme="@style/splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
